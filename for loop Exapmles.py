@@ -21,11 +21,10 @@ for i in range (1,5):
         print("*", end =" " )       
     print(" " )
     n+=1 
-    
-    
+      
 print(" ")
     
-#print tringle shape
+#print the shape shape
 n=1
 for i in range (1,6):
     for i in range (n):
