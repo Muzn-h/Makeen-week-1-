@@ -1,0 +1,14 @@
+num = int(input("Enter a number: "))
+ori_num = num
+sum = len(str(num))
+power = 0
+
+while num > 0:
+    digit = num % 10
+    power += digit ** sum
+    num //= 10
+
+if ori_num == power:
+    print(ori_num, "is a narcissistic number.")
+else:
+    print(ori_num, "is not a narcissistic number.")
